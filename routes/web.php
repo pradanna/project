@@ -20,11 +20,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('login');
+    return view('auth.login');
 });
 
 Route::get('/admin', function () {
-    return view('admin.beranda');
+    return view('login.beranda');
 });
 
 
